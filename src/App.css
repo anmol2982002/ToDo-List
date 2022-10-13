@@ -1,0 +1,66 @@
+.App {
+text-align: center;
+background-color: white;
+height: 31rem;
+width: 23.4rem;
+border-radius: 10px;
+box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.4);
+}
+
+#para{
+  background-color: #80558C;
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+}
+
+#inpt{
+  border: none;
+  border-bottom: 3px solid #80558C;
+  margin-right: 10px;
+}
+#inpt:focus{
+  outline: none;
+}
+#btn{
+  border-radius: 50%;
+  background-color: #80558C;
+  border: none;
+  cursor: pointer;
+  height: 2.4rem;
+  width: 2.4rem;
+  color: white;
+  font-size: 1.1rem;
+}
+#btn:hover{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-weight: bolder;
+  background-color: green;
+}
+.mainDv{
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-left: 2.2rem;
+  margin-top: 1.2rem;
+}
+.button{
+  border-radius: 50%;
+  background-color: #80558C;
+  border: none;
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: white;
+  font-size: 1.1rem;
+  margin-left: 0.3rem;
+}
+.button:hover{
+  background-color: red;
+  font-weight: bolder;
+}
+.paragraph{
+  color: #80558C;
+  font-weight: 600;
+  margin-left: 1.2rem;
+}
